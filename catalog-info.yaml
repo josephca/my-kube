@@ -1,8 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-kubernetes-component
+  name: my-kube
+  annotations:
+    github.com/project-slug: josephca/my-kube
 spec:
-  lifecycle: production
+  lifecycle: unknown
   owner: my-team
   type: service
