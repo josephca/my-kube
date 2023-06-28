@@ -5,8 +5,8 @@ metadata:
   description: test kube component
   annotations:
     github.com/project-slug: josephca/my-kube
-    backstage.io/kubernetes-id: my-kube
+    # backstage.io/kubernetes-id: my-kube
 spec:
   lifecycle: unknown
-  owner: my-team
+  owner: team-a
   type: service
